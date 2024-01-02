@@ -38,7 +38,7 @@ class Intersectionoftwoarrays{
 				count++;
 			}
 
-			setA.remove(b[j]);
+			set.remove(b[j]);
 		}
 
 		return count;
