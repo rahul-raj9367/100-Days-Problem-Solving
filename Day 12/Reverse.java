@@ -30,7 +30,7 @@ class Reverse{
 		for(int i=0;i<arr.length;i+=n){
 			int left=i;
 			int temp;
-			int right=Math.min(i+n-1,n-1);
+			int right=Math.min(i+n-1,arr.length-1);
 			while(left<right){
 				temp=arr[left];
 				arr[left]=arr[right];
