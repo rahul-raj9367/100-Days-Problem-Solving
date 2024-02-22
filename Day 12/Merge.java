@@ -11,7 +11,6 @@ class Merge{
 		int a[]={3,5,8};
 		int b[]={9,6,4};
 		int length=a.length+b.length;
-
 		 TreeSet<Integer> set = new TreeSet<>();
 		
 		for(int i=0;i<a.length;i++){
